@@ -24,7 +24,7 @@ pipeline {
       steps {
         sh 'kubectl apply -f ./BinaryCalculatorWebapp/deployment.yaml'
         sh 'kubectl apply -f ./BinaryCalculatorWebapp/service.yaml'
-        sh 'echo "bye bye"'
+        sh 'echo "bye bye see ya later"'
       }
     }
   }
